@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Divider from "@material-ui/core/Divider";
 
 import Axios from "axios";
 
@@ -72,7 +73,14 @@ function App() {
         />
         <button onClick={addInfo}>Add Employee</button>
       </div>
-      <hr />
+      <Divider />
+      <Divider />
+      <Divider />
+      <Divider />
+
+      <div className="employee">
+        <button>Show Employees</button>
+      </div>
     </div>
   );
 }
