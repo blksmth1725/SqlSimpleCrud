@@ -72,6 +72,7 @@ function App() {
         />
         <button onClick={addInfo}>Add Employee</button>
       </div>
+      <hr />
     </div>
   );
 }
